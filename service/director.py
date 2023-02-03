@@ -9,6 +9,10 @@ class DirectorService():
     def get_directors(self) -> DirectorModel:
         result = self.db.query(DirectorModel).all
         return result
+    def get_director_by_id(self,id:int):
+        result = self.db.query(DirectorModel).filter(DirectorModel.id == id).first()
+        return result
+    #falta por nombre 
     
     def create_director(self,director: DirectorModel):
         new_director = DirectorModel(

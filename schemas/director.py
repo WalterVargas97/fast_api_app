@@ -4,8 +4,8 @@ from pydantic import BaseModel, Field
 
 class Director(BaseModel):
     id: Optional[int] = None
-    fname: str = Field(max_length=15,min_length=3)
-    lname: str = Field(max_length=15,min_length=3)
+    fname: str = Field(max_length=30,min_length=2)
+    lname: str = Field(max_length=30,min_length=2)
     
     
     class Config:

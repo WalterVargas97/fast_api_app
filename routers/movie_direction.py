@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 from schemas.movie_direction import MovieDirection
 from config.database import Session
 from service.movie_direction import MovieDirectionService
-from models.movie_direction import Movie_direction as MovieDirectionModel
+from models.moviedirection import Movie_direction as MovieDirectionModel
 
 movie_direction_router = APIRouter()
 

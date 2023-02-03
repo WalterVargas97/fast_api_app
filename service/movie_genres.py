@@ -1,4 +1,4 @@
-from models.movie_genres import  Movie_genres as MovieGenresModel
+from models.moviegenres import  Movie_genres as MovieGenresModel
 from schemas.movie_genres import Movie_genres
 
 

@@ -1,4 +1,4 @@
-from models.movie_direction import Movie_direction as MovieDirectionModel
+from models.moviedirection import Movie_direction as MovieDirectionModel
 from schemas.movie_direction import MovieDirection
 
 
